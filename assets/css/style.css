@@ -68,8 +68,12 @@ header .owl-nav{
   display: none;
 }
 
-
-
+header .dsCountDown.ds-white {
+  display: flex;
+}
+header .ds-white .ds-element {
+  float: unset;
+}
 
 @media (max-width:575px) {
   html{
