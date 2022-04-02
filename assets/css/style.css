@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'cairo-bold';
+  outline: none;
+  color: #8a898a;
+}
+:root{
+  --fontName:'thuluth-decorated';
+}
+body{
+  background-image: url("../img/pat-01.png");
+}
+header{
+  position: relative;
+}
+header .row{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
+header .title-name{
+  margin-top: 2rem;
+  width: 45%;
+  direction: rtl;
+}
+header .title-date{
+  direction: rtl;
+}
+header .title-name h1{
+  font-family: var(--fontName);
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 7rem;
+  font-weight: 400;
+}
+header .title-name h1 img{
+  width: 10%;
+}
+header .owl-carousel{
+  margin-top: 2rem;
+}
+header  .box{
+  width: 263px;
+  height: 263px;
+  background-color:#fff;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+}
+header .box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 7px solid #8a898a;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  -o-border-radius:50%;
+}
+header .owl-nav{
+  display: none;
+}
+
+
+
+
+@media (max-width:575px) {
+  html{
+    font-size:13px;
+  }
+  header .ds-white .ds-element {
+    float: left;
+    margin-right: -2px;
+  }
+}
